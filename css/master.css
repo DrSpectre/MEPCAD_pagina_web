@@ -47,7 +47,7 @@ body{
 
 .galer{
     width: 18vw;
-    height: 23vh;
+    height: 12vh;
 }
 
 .galer_1{
@@ -63,7 +63,7 @@ body{
 }
 
 .galer_3{
-    height: 15vw;
+    height: 23vh;
 
     background-color: gray;
 
@@ -71,7 +71,7 @@ body{
 }
 
 .galer_4{
-    height: 15vw;
+    height: 23vh;
     width: 35vw;
 
     background-color: purple;
