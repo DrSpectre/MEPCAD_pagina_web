@@ -102,13 +102,13 @@ body{
 }
 
 .imagen_lateral_anim{
-    transition: left 0.15s;
+    transition: fade-in left 0.2s;
 
     left: 0;
 }
 
 .texto_lateral_anim{
-    transition: right 0.15s;
+    transition: fade-in right 0.2s;
 
     right: 0;
 }
