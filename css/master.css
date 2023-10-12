@@ -115,6 +115,8 @@ body{
     position: fixed;
     top: 0;
     right: -50vw;
+
+    z-index: 9999;
 }
 
 .imagen_lateral{
@@ -127,6 +129,8 @@ body{
     position: fixed;
     top: 0;
     left: -50vw;
+
+    z-index: 9999;
 }
 
 .imagen_lateral_anim{
