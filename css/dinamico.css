@@ -1,0 +1,14 @@
+/*
+@media only screen and (min-width: 768px){
+    .contenedor_galeria{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media only screen and (min-width: 1280px){
+    .contenedor_galeria{
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+*/
+
