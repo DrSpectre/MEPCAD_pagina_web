@@ -29,11 +29,13 @@ body{
     width: 30%;
 }
 
-.contenedor_galeria{
+.contenedor_generico{
     margin-top: 25px;
-    margin-left: 12.5%;
-    margin-right: 12.5%;
 
+    display: flex;
+}
+
+.contenedor_galeria{
     width: 75vw;
 
     display: grid;
@@ -44,6 +46,32 @@ body{
 
 
     background-color: red;
+}
+
+.banner{
+    width: 7.5vw;
+
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+}
+
+.banderilla_mepcad{
+    position: sticky;
+    top: 20px;
+
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+
+    font-size: 4rem;
+    text-align: center;
+    color: yellow;
+
+    text-shadow: red -7px 0px; 
+}
+
+.banderilla_mepcad > span{
+    color: yellow;
+    text-shadow: white -7px 0px; 
 }
 
 .galer{
