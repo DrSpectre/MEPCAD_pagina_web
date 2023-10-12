@@ -17,7 +17,7 @@ function clickeado(...argumentos){
         texto_lateral.classList.add("texto_lateral_anim")
         imagen_lateral.classList.add("imagen_lateral_anim")
 
-        let entrada_encontrada = Catalogo.find((entrada) => entrada.id == argumentos[1])
+        let entrada_encontrada = Catalogo.find((entrada) => entrada.id == argumentos[1]) ?? {texto: "Parece que no tenemos ese dato", img: "https://i.redd.it/floofy-sleep-time-hololive-v0-3oxipphrpjtb1.jpg?s=a8c4a0940c5ce6c2210bcc08baacca61b253fd06"}
         console.log(entrada_encontrada)
 
         texto_lateral.querySelector("#min_texto").innerText = entrada_encontrada.texto
