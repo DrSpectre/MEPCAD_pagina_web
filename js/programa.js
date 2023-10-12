@@ -36,10 +36,12 @@ function clickeado(...argumentos){
 
 
 function cerrar_ventanas(...argumentos){
-    texto_lateral.classList.remove("texto_lateral_anim")
-    imagen_lateral.classList.remove("imagen_lateral_anim")
+    if(estado_actual == estados_posibles.visisble){
+        texto_lateral.classList.remove("texto_lateral_anim")
+        imagen_lateral.classList.remove("imagen_lateral_anim")
 
-    estado_actual = estados_posibles.oculto
+        estado_actual = estados_posibles.oculto
+    }
 }
 
 

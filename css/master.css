@@ -78,7 +78,7 @@ body{
 }
 
 .texto_lateral{
-    width: 45vw;
+    width: 50vw;
     height: 100%;
 
     background-color: gray;
@@ -86,11 +86,11 @@ body{
     transition: right 0.15s;
     position: fixed;
     top: 0;
-    right: -45vw;
+    right: -50vw;
 }
 
 .imagen_lateral{
-    width: 45vw;
+    width: 50vw;
     height: 100%;
 
     background-color: coral;
@@ -98,7 +98,7 @@ body{
     transition: left 0.15s;
     position: fixed;
     top: 0;
-    left: -45vw;
+    left: -50vw;
 }
 
 .imagen_lateral_anim{
