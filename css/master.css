@@ -18,7 +18,7 @@ body{
 .contenedor_titulo{
     margin-top: 1%;
 
-    height: 500px;
+    height: 150px;
     width: 75vw;
 
     margin-left: 12.5vw;
@@ -71,7 +71,7 @@ body{
     writing-mode: vertical-lr;
     text-orientation: upright;
 
-    font-size: 2rem;
+    font-size: 4.5vw;
     text-align: center;
     color: yellow;
 
@@ -201,16 +201,20 @@ body{
 }
 
 .efecto_chica_poster{
-    display: block;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+
 }
 
 .img_poster_efecto{
-    height: 450px;
+    height: 150px;
 
     position: relative;
 
-    top: -450px;
-    left: 0;
+    /*top: -150px; */
+    top: 0;
+    left: -150px;
 }
 
 .encabezado_principal{

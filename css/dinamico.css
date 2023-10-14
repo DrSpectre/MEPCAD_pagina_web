@@ -1,12 +1,24 @@
 @media only screen and (min-width: 768px){
-    .banderilla_mepcad{
-        font-size: 3rem;
+    .contenedor_titulo{
+        height: 250px;
+    }
+
+    .img_poster_efecto{
+        height: 200px;
+
+        left: -250px;
     }
 }
 
 @media only screen and (min-width: 1280px){
-    .banderilla_mepcad{
-        font-size: 4rem;
+    .contenedor_titulo{
+        height: 500px;
+    }
+
+    .img_poster_efecto{
+        height: 450px;
+
+        left: -450px;
     }
 }
 
