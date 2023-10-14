@@ -1,5 +1,6 @@
 const texto_lateral = document.querySelector("#texto_lat");
 const imagen_lateral = document.querySelector("#img_lat");
+const efecto_poster = document.querySelector("#img_poster_efecto");
 
 const estados_posibles = {
     visisble: "texto_visible",
@@ -44,4 +45,10 @@ function cerrar_ventanas(...argumentos){
     }
 }
 
+function en_mouse_movimiento(evento){
+    console.log(evento)
+
+    efecto_poster.style["left"] = ((evento.clientY * 0.05)) + "px"
+    efecto_poster.style["top"] = ((evento.clientX * 0.02) - 500) + "px"
+}
 

@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="css/dinamico.css" />
     </head>
 
-    <body>
+    <body onmousemove="en_mouse_movimiento(event)">
         <div class="texto_lateral" id="texto_lat" onclick="cerrar_ventanas(event, 'text_lat')">
             <div class="bton_cerrar"></div>
 
@@ -48,8 +48,23 @@
             </div>
         </div>
 
-        <div class="img_contenedor">
-            <img src="img/chica_poster.png" class="img_poster" />
+        <div class="encabezado_principal">
+            <img src="img/Nombre y fechas.png" />
+        </div>
+
+        <div class="contenedor_titulo">
+            <div class="img_contenedor">
+                <img src="img/texto_postter_seminario.png" class="img_poster" />
+            </div>
+
+            <div class="img_contenedor efecto_chica_poster">
+                <img src="img/chica_poster.png" class="img_poster" />
+                <img src="img/segunda_imagen_chica_poster.png" class="img_poster_efecto" id="img_poster_efecto" />
+            </div>
+
+            <div class="img_contenedor">
+                <img src="img/fechas_poster.png" class="img_poster" />
+            </div>
         </div>
 
         <div class="contenedor_generico">
@@ -126,6 +141,10 @@
             </div>
 
             <div class="banner"></div>
+        </div>
+
+        <div class="pie_pagina">
+            <img src="img/footer_poster.png" />
         </div>
 
     </body>
