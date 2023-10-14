@@ -189,13 +189,16 @@ body{
     object-fit: scale-down;
 }
 
-.contenedor_imagen > img {
-    width: 90%;
-    height: 100%;
+.contenedor_imagen{
+    display: flex;
+    justify-content: space-around;
+}
 
-    margin-top: 3%;
-    margin-left: 5%;
-    margin-right: 5%;
+.contenedor_imagen > img {
+    max-width: 90%;
+    height: 90vh;
+
+    margin: auto;
 
     object-fit: scale-down;
 }
