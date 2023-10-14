@@ -1,14 +1,18 @@
-/*
 @media only screen and (min-width: 768px){
-    .contenedor_galeria{
-        grid-template-columns: repeat(4, 1fr);
+    .banderilla_mepcad{
+        font-size: 3rem;
     }
 }
 
 @media only screen and (min-width: 1280px){
-    .contenedor_galeria{
-        grid-template-columns: repeat(5, 1fr);
+    .banderilla_mepcad{
+        font-size: 4rem;
     }
 }
-*/
+
+
+@font-face{
+    font-family: coolvetica;
+    src: url(../recursos/coolvetica/coolvetica.otf);
+}
 
