@@ -13,14 +13,11 @@ let estado_actual = estados_posibles.oculto
 
 
 function clickeado(...argumentos){
-    console.log(argumentos)
-
     if(estado_actual == estados_posibles.oculto){
         texto_lateral.classList.add("texto_lateral_anim")
         imagen_lateral.classList.add("imagen_lateral_anim")
 
         let entrada_encontrada = Catalogo.find((entrada) => entrada.id == argumentos[1]) ?? {texto: "Parece que no tenemos ese dato", img: "https://i.redd.it/floofy-sleep-time-hololive-v0-3oxipphrpjtb1.jpg?s=a8c4a0940c5ce6c2210bcc08baacca61b253fd06"}
-        console.log(entrada_encontrada)
 
         texto_lateral.querySelector("#titulo_place").innerText = entrada_encontrada.texto.titulo
         texto_lateral.querySelector("#anyo_place").innerText = entrada_encontrada.texto.anyo
@@ -38,7 +35,6 @@ function clickeado(...argumentos){
         if(entrada_encontrada.texto.material){
             texto_lateral.querySelector("#material_place").innerText = entrada_encontrada.texto.material
             texto_lateral.querySelector("#material").classList.remove("display_hide")
-            console.log("Debe msotrarse material")
         }
         else{
             texto_lateral.querySelector("#material").classList.add("display_hide")
