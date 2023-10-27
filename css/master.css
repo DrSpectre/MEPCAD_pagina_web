@@ -259,3 +259,11 @@ body{
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+
+.display_hide{
+    display: none;
+}
+
+
+
