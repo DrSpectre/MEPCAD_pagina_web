@@ -45,17 +45,6 @@ const Catalogo = [
         img: "img/galeria/opuntita.jpeg",
     },
     {
-        id: "--",
-        texto: {
-            titulo: "",
-            material: "",
-            anyo: "",
-            autor: "",
-            acerca_obra: "",
-        },
-        img: "img/galeria/",
-    },
-    {
         id: "lado_b",
         texto: {
             titulo: "Lado B del Lado B",
@@ -65,6 +54,17 @@ const Catalogo = [
             acerca_obra: "La naturaleza efímera y anónima de las comunicaciones en línea promueve una apariencia de libertad similar a las conversaciones privadas. Sin embargo, esta libertad también propicia la propagación del error y la desinformación. A través de rumores, teorías conspirativas y emociones desbordadas expresadas sin filtro ni verificación, el error y la información falsa se cuelan y consolidan momentáneamente en el espacio público virtual. Este trabajo analiza conversaciones de WhatsApp durante la pandemia para desentrañar las estructuras conceptuales inconsistentes y llenas de contradicciones que subyacen a las fracturas sociopolíticas, y la materialidad fértil pero también problemática que encierran los impulsos irracionales expresados en una época de incertidumbre. Todo ello a través de un \"hackeo estadístico\" que problematiza la inestable pero reveladora arquitectura del error y el sinsentido en las comunicaciones digitales. \n\n\n\nPresentado en el Centro Cultural de España en La Paz-Bolivia. Dentro de la exposición colectiva \"Mutaciones y afecciones #cuerpospandemicos\". ",
         },
         video: "img/galeria/lado_b.mp4",
+    },
+    {
+        id: "--",
+        texto: {
+            titulo: "",
+            material: "",
+            anyo: "",
+            autor: "",
+            acerca_obra: "",
+        },
+        img: "img/galeria/",
     },
 ]
 
