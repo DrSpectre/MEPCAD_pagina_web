@@ -12,13 +12,13 @@
 
 @media only screen and (min-width: 1280px){
     .contenedor_titulo{
-        height: 500px;
+        height: 400px;
     }
 
     .img_poster_efecto{
-        height: 450px;
+        height: 350px;
 
-        left: -450px;
+        left: -350px;
     }
 }
 
