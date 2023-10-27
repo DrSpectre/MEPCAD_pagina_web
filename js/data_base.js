@@ -10,6 +10,17 @@ const Catalogo = [
         },
         img: "img/galeria/origins_men_art.JPG",
     },
+    {
+        id: "--",
+        texto: {
+            titulo: "",
+            material: "",
+            anyo: "",
+            autor: "",
+            acerca_obra: "",
+        },
+        img: "img/galeria/",
+    },
 ]
 
 
