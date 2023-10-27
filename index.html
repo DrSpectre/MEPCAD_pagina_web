@@ -12,14 +12,7 @@
         <div class="texto_lateral" id="texto_lat" onclick="cerrar_ventanas(event, 'text_lat')">
             <div class="bton_cerrar"></div>
 
-            <div class="contenedor_texto" id="min_texto">
-                <div class="renglon" id="titulo"><span>TItulo: </span><span id="titulo_place">aqui va esa cosa</span></div>
-                <div class="renglon" id="anyo"><span>Año: </span><span id="anyo_place">aqui va esa cosa</span></div>
-                <div class="renglon" id="autor"><span>Autor: </span><span id="autor_place">aqui va esa cosa</span></div>
-                <div class="renglon" id="material"><span>Material: </span><span id="material_place">aqui va esa cosa</span></div>
-                <div class="renglon" id="tecnica"><span>Técnica: </span><span id="tecnica_place">aqui va esa cosa</span></div>
-                <div class="renglon" id="sobre_obra"><span>Sobre la obra: </span><span id="sobre_obra_place">aqui va esa cosa</span></div>
-            </div>
+            <div class="contenedor_texto" id="min_texto"></div>
         </div>
 
         <div class="imagen_lateral" id="img_lat" onclick="cerrar_ventanas(event, 'text_lat')">
@@ -52,25 +45,25 @@
         <div class="contenedor_generico">
             <div class="banner">
                 <div class="banderilla_mepcad">
-                    GALERÍA
+                    GALERÍA <!--br /> <span>MEPCAD</span-->
                 </div>
             </div>
             
             <div class="contenedor_galeria">
-                <div class="galer" onclick="clickeado(event, 'origins_of_men')">
-                    <img src="img/galeria/origins_men_art.JPG" />
+                <div class="galer" onclick="clickeado(event, 'nombre_1')">
+                    <img src="img/galeria/01.jpg" />
                 </div>
 
-                <div class="galer galeria_ancha" onclick="clickeado(event, 'cuadernos_amor_1')">
-                    <img src="img/galeria/cuadernos_amor_1.jpg" />
+                <div class="galer galeria_larga" onclick="clickeado(event, 'nombre_2')">
+                    <img src="img/galeria/02.jpg" />
                 </div>
 
-                <div class="galer galeria_larga" onclick="clickeado(event, 'cuadernos_amor_2')">
-                    <img src="img/galeria/cuadernos_amor_2.jpg" />
+                <div class="galer galeria_ancha" onclick="clickeado(event, 'nombre_3')">
+                    <img src="img/galeria/03.jpg" />
                 </div>
 
-                <div class="galer galeria_larga" onclick="clickeado(event, 'opuntita')">
-                    <img src="img/galeria/opuntita.jpeg" />
+                <div class="galer galeria_larga" onclick="clickeado(event, 'nombre_4')">
+                    <img src="img/galeria/03.jpg" />
                 </div>
 
                 <div class="galer galeria_larga galeria_ancha" onclick="clickeado(event, 'nombre_5')">
@@ -122,10 +115,12 @@
                 </div>
             </div>
 
+          <!-- <div class="banner"></div>-->
         </div>
 
         <div class="pie_pagina">
             <div class="imagen_pie_pagina"></div> 
+            <!--<img class="imagen_pie_pagina" src="img/footer_poster.png" />-->
         </div>
 
     </body>

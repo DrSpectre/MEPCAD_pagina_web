@@ -55,11 +55,11 @@ function en_mouse_movimiento(evento){
 
 function calcular_height_efecto(){
     if(window.innerWidth > 1280){
-        return -450
+        return -400
     }
 
     else if(window.innerWidth > 768){
-        return -250
+        return -200
     }
 
     return -150

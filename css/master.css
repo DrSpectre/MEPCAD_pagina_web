@@ -214,20 +214,24 @@ body{
 }
 
 .efecto_chica_poster{
-    display: flex;
+    height: 30vw;
+    display:flex;
     flex-flow: column;
     flex-wrap: wrap;
+    object-fit: scale-down;
 
 }
 
 .img_poster_efecto{
-    height: 150px;
+    height: 30vw;
 
     position: relative;
 
     /*top: -150px; */
     top: 0;
     left: -150px;
+
+    object-fit: scale-down;
 }
 
 .encabezado_principal{

@@ -1,4 +1,8 @@
 @media only screen and (min-width: 768px){
+    .encabezado_principal{
+        margin-left: 10vw;
+    }
+
     .contenedor_titulo{
         height: 250px;
     }
@@ -6,11 +10,15 @@
     .img_poster_efecto{
         height: 200px;
 
-        left: -250px;
+        left: -100px;
     }
 }
 
 @media only screen and (min-width: 1280px){
+    .encabezado_principal{
+        margin-left: 0vw;
+    }
+
     .contenedor_titulo{
         height: 400px;
     }
@@ -18,7 +26,7 @@
     .img_poster_efecto{
         height: 350px;
 
-        left: -350px;
+        left: -250px;
     }
 }
 
