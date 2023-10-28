@@ -56,10 +56,23 @@ const Catalogo = [
         video: "img/galeria/lado_b.mp4",
     },
     {
+        id: "triptico_baja_res",
+        texto: {
+            titulo: "Triptico a Baja Resolución Pt2",
+            material: "",
+            tecnica: "Óleo sobre mdf",
+            anyo: "2023",
+            autor: "Misael Osorio (misa.09)",
+            acerca_obra: "Esta es una obra que nace de la inquietud de llevar una imagen de índole digital a un contexto análogo, el jugar con la forma en que ha sido creada genera de cerca la impresión de algo abstracto y aleatorio, sin embargo al tomar distancia con al obra se logra apreciar la imagen, esta pertenece a una serie de 3 obras llevadas a cabo bajo la misma perspectiva, y representan de manera muy personal una manera de afrontar los miedos, la muerte, el cansancio.",
+        },
+        img: "img/galeria/triptico_baja_res.jpg",
+    },
+    {
         id: "--",
         texto: {
             titulo: "",
             material: "",
+            tecnica: "",
             anyo: "",
             autor: "",
             acerca_obra: "",
