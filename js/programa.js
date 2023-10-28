@@ -47,6 +47,7 @@ function clickeado(...argumentos){
             imagen_lateral.querySelector("img").style.display = 'none'
             imagen_lateral.querySelector("video").style.display = 'flex'
             imagen_lateral.querySelector("video").src = entrada_encontrada.video
+
             imagen_lateral.style.width = "100vw"
             imagen_lateral.style.height = "65vh"
 
