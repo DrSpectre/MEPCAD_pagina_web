@@ -47,6 +47,12 @@ function clickeado(...argumentos){
             imagen_lateral.querySelector("img").style.display = 'none'
             imagen_lateral.querySelector("video").style.display = 'flex'
             imagen_lateral.querySelector("video").src = entrada_encontrada.video
+            imagen_lateral.style.width = "100vw"
+            imagen_lateral.style.height = "65vh"
+
+            texto_lateral.style.width = "100vw"
+            texto_lateral.style.height = "35vh"
+            texto_lateral.style.marginTop ="65vh"
 
         }
         
@@ -75,6 +81,13 @@ function cerrar_ventanas(...argumentos){
 
         imagen_lateral.querySelector("img").style.display = 'flex'
         imagen_lateral.querySelector("video").style.display = 'none'
+
+        imagen_lateral.style.width = "50vw"
+        imagen_lateral.style.height = "100%"
+
+        texto_lateral.style.width = "50vw"
+        texto_lateral.style.height = "100%"
+        texto_lateral.style.marginTop ="0"
     }
 }
 
