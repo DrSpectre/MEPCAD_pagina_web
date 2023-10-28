@@ -16,6 +16,7 @@ function clickeado(...argumentos){
     if(estado_actual == estados_posibles.oculto){
         texto_lateral.classList.add("texto_lateral_anim")
         imagen_lateral.classList.add("imagen_lateral_anim")
+        document.body.style.overflow="hidden"
 
         let entrada_encontrada = Catalogo.find((entrada) => entrada.id == argumentos[1]) ?? {texto: "Parece que no tenemos ese dato", img: "https://i.redd.it/floofy-sleep-time-hololive-v0-3oxipphrpjtb1.jpg?s=a8c4a0940c5ce6c2210bcc08baacca61b253fd06"}
 
@@ -39,6 +40,15 @@ function clickeado(...argumentos){
         else{
             texto_lateral.querySelector("#material").classList.add("display_hide")
         }
+
+        if(argumentos[2] == 'video'){
+            console.log("video")
+
+            imagen_lateral.querySelector("img").style.display = 'none'
+            imagen_lateral.querySelector("video").style.display = 'flex'
+            imagen_lateral.querySelector("video").src = entrada_encontrada.video
+
+        }
         
         imagen_lateral.querySelector("img").src = entrada_encontrada.img
 
@@ -60,6 +70,11 @@ function cerrar_ventanas(...argumentos){
         imagen_lateral.classList.remove("imagen_lateral_anim")
 
         estado_actual = estados_posibles.oculto
+
+        document.body.style.overflow="auto"
+
+        imagen_lateral.querySelector("img").style.display = 'flex'
+        imagen_lateral.querySelector("video").style.display = 'none'
     }
 }
 

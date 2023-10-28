@@ -13,6 +13,25 @@ body{
     justify-content: center;
 
     font-family: coolvetica;
+
+    overflow: auto;
+    scrollbar-width: thin;          /* "auto" or "thin" */
+    scrollbar-color: blue orange;   /* scroll thumb and track */
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    border-radius: 8px;
+    background-color: #e7e7e7;
+    border: 1px solid #cacaca;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: radial-gradient(circle, rgba(63,195,251,1) 0%, rgba(70,173,252,1) 100%);
 }
 
 .contenedor_titulo{
@@ -58,7 +77,6 @@ body{
 
 
     /*background-color: #002B55;*/
-    
 }
 
 .banner{
@@ -111,6 +129,24 @@ body{
     object-fit: scale-down;
 }
 
+.galer > video{
+    width: 100%;
+    height: 100%;
+
+    object-fit: scale-down;
+}
+
+.imagen_lateral > .contenedor_imagen > video{
+    display: none;
+
+    max-width: 90%;
+    height: 50vh;
+
+    margin: auto;
+
+    object-fit: scale-down;
+}
+
 .titulo_lugar{
     width: 30%;
     height: 10%;
@@ -134,7 +170,24 @@ body{
     top: 0;
     right: -50vw;
 
+    overflow: auto;
+
     z-index: 9999;
+}
+
+#texto_lat::-webkit-scrollbar {
+    width: 10px;
+}
+
+#texto_lat::-webkit-scrollbar-track {
+    border-radius: 8px;
+    background-color: #e7e7e7;
+    border: 1px solid #cacaca;
+}
+
+#texto_lat::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
 }
 
 .imagen_lateral{
@@ -147,6 +200,7 @@ body{
     position: fixed;
     top: 0;
     left: -50vw;
+    
 
     z-index: 9999;
 }
