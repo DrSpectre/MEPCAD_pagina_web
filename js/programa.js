@@ -80,7 +80,10 @@ function cerrar_ventanas(...argumentos){
         document.body.style.overflow="auto"
 
         imagen_lateral.querySelector("img").style.display = 'flex'
-        imagen_lateral.querySelector("video").style.display = 'none'
+        let video = imagen_lateral.querySelector("video")
+        video.style.display = 'none'
+        video.pause()
+
 
         imagen_lateral.style.width = "50vw"
         imagen_lateral.style.height = "100%"
