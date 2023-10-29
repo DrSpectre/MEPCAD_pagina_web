@@ -42,6 +42,14 @@ function clickeado(...argumentos){
             texto_lateral.querySelector("#material").classList.add("display_hide")
         }
 
+        if(entrada_encontrada.texto.visitar_sitio){
+            imagen_lateral.querySelector("#visitar_sitio").href = entrada_encontrada.texto.visitar_sitio
+            imagen_lateral.querySelector("#visitar_sitio").classList.remove("display_hide")
+        }
+        else{
+            imagen_lateral.querySelector("#visitar_sitio").classList.add("display_hide")
+        }
+
         if(entrada_encontrada.video){
             imagen_lateral.querySelector("img").style.display = 'none'
             imagen_lateral.querySelector("video").style.display = 'flex'

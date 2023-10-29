@@ -6,6 +6,15 @@
     color: #0076ED;
 }
 
+.visitar_sitio_web{
+    width: 100%;
+    
+    display: block;
+
+    text-align: center;
+    font-size: 2rem;
+}
+
 .seccion_superior_lateral{
 }
 
