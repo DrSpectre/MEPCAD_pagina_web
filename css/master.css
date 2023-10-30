@@ -199,10 +199,26 @@ body::-webkit-scrollbar-thumb {
     transition: left 0.15s;
     position: fixed;
     top: 0;
-    left: -50vw;
-    
+    left: -50vw;    
+
+    overflow: auto;
 
     z-index: 9999;
+}
+
+#img_lat::-webkit-scrollbar {
+    width: 10px;
+}
+
+#img_lat::-webkit-scrollbar-track {
+    border-radius: 8px;
+    background-color: #e7e7e7;
+    border: 1px solid #cacaca;
+}
+
+#img_lat::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: radial-gradient(circle, rgba(255,187,187,1) 0%, rgba(255,1,1,1) 100%);
 }
 
 .imagen_lateral_anim{
@@ -319,5 +335,7 @@ body::-webkit-scrollbar-thumb {
     display: none;
 }
 
-
+.serie {
+    background: radial-gradient(circle, rgba(255,187,187,0.7357317927170868) 0%, rgba(255,1,1,0.5396533613445378) 100%);
+}
 
