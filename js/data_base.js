@@ -13,7 +13,7 @@ const Catalogo = [
     {
         id: "cuadernos_amor_1",
         texto: {
-            titulo: "arte de las series \"Los Cuadernos del Amor\"",
+            titulo: "arte de las series \"Los Cuadernos del Amor\".",
             material: "Ilustración",
             anyo: "2011",
             autor: "Erick Nungaray",
@@ -24,7 +24,7 @@ const Catalogo = [
     {
         id: "cuadernos_amor_2",
         texto: {
-            titulo: "arte de las series \"Los Cuadernos del Amor\"",
+            titulo: "arte de las series \"Los Cuadernos del Amor\".",
             material: "Ilustración",
             anyo: "2011",
             autor: "Erick Nungaray",
@@ -35,7 +35,7 @@ const Catalogo = [
     {
         id: "opuntita",
         texto: {
-            titulo: "Opuntia engelmannii var. aciculata",
+            titulo: "Opuntia engelmannii var. aciculata.",
             tecnica: "Mixta; acuarela en pasta con lápices suaves",
             material: "Papel Canson Mix media 300g-  22.9 cm x 30.5 cm",
             anyo: "2020",
@@ -47,7 +47,7 @@ const Catalogo = [
     {
         id: "lado_b",
         texto: {
-            titulo: "Lado B del Lado B",
+            titulo: "Lado B del Lado B.",
             tecnica: "Videoarte",
             anyo: "2021",
             autor: "Pablo Aguirre",
@@ -58,7 +58,7 @@ const Catalogo = [
     {
         id: "triptico_baja_res",
         texto: {
-            titulo: "Triptico a Baja Resolución Pt2",
+            titulo: "Triptico a Baja Resolución Pt2.",
             material: "",
             tecnica: "Óleo sobre mdf",
             anyo: "2023",
@@ -71,12 +71,12 @@ const Catalogo = [
     {
         id: "literatura_glitch",
         texto: {
-            titulo: "Ninety-nine tweets about #LiteracyOfTheGlitch: a #LessonPlan on the potentials of failure, the unforeseen & the errant.",
+            titulo: "Literacy of the Glitch.",
             material: "",
             tecnica: "",
             anyo: "2012",
             autor: "León de la Rosa",
-            acerca_obra: "Artista, activista por el Valle de Juárez ( Artivista ) y poeta desde el border León de la Rosa se dedica al remix de situaciones y palabras. Reorganiza y desorganiza la realidad a través de sus repeticiones que luego se convierten en retruécanos, en monólogos, en diálogos o cualquier cosa que sea la comunicación después de criticar al sistema en que somos y nos comunicamos en este glitch que llamamos sociedad.",
+            acerca_obra: "Artista, activista por el Valle de Juárez ( Artivista ) y poeta desde el border. León de la Rosa se dedica al remix de situaciones y palabras. Reorganiza y desorganiza la realidad a través de sus repeticiones que luego se convierten en retruécanos, en monólogos, en diálogos o cualquier cosa que sea la comunicación después de criticar al sistema en que somos y nos comunicamos en este glitch que llamamos sociedad.",
             visitar_sitio: "https://literacyoftheglitch.org/",
         },
         img: "img/galeria/literatura_glitch.gif",
@@ -84,12 +84,12 @@ const Catalogo = [
     {
         id: "nada_ojala",
         texto: {
-            titulo: "Post/Nada_[as in Reporte Ojalá]",
+            titulo: "Nada/Whole/Ojala.",
             material: "",
             tecnica: "",
             anyo: "2013-2014",
             autor: "León de la Rosa",
-            acerca_obra: "Artista, activista por el Valle de Juárez ( Artivista ) y poeta desde el border León de la Rosa se dedica al remix de situaciones y palabras. Reorganiza y desorganiza la realidad a través de sus repeticiones que luego se convierten en retruécanos, en monólogos, en diálogos o cualquier cosa que sea la comunicación después de criticar al sistema en que somos y nos comunicamos en este glitch que llamamos sociedad.",
+            acerca_obra: "Artista, activista por el Valle de Juárez ( Artivista ) y poeta desde el border. León de la Rosa se dedica al remix de situaciones y palabras. Reorganiza y desorganiza la realidad a través de sus repeticiones que luego se convierten en retruécanos, en monólogos, en diálogos o cualquier cosa que sea la comunicación después de criticar al sistema en que somos y nos comunicamos en este glitch que llamamos sociedad.",
             visitar_sitio: "https://nadawholeojala.wordpress.com/",
         },
         img: "img/galeria/nada_ojala.gif",
@@ -97,12 +97,12 @@ const Catalogo = [
     {
         id: "arboles_windsong",
         texto: {
-            titulo: "Arboles-WindSongs",
+            titulo: "Árboles de mi Desierto: Windsongs.",
             material: "",
             tecnica: "",
             anyo: "2017-2021",
             autor: "León de la Rosa",
-            acerca_obra: "Artista, activista por el Valle de Juárez ( Artivista ) y poeta desde el border León de la Rosa se dedica al remix de situaciones y palabras. Reorganiza y desorganiza la realidad a través de sus repeticiones que luego se convierten en retruécanos, en monólogos, en diálogos o cualquier cosa que sea la comunicación después de criticar al sistema en que somos y nos comunicamos en este glitch que llamamos sociedad.",
+            acerca_obra: "Artista, activista por el Valle de Juárez ( Artivista ) y poeta desde el border. León de la Rosa se dedica al remix de situaciones y palabras. Reorganiza y desorganiza la realidad a través de sus repeticiones que luego se convierten en retruécanos, en monólogos, en diálogos o cualquier cosa que sea la comunicación después de criticar al sistema en que somos y nos comunicamos en este glitch que llamamos sociedad.",
             visitar_sitio: "https://sinlinea.net/Arboles-WindSongs/index.html",
         },
         img: "img/galeria/arboles_windsong.png",
@@ -110,7 +110,7 @@ const Catalogo = [
     {
         id: "obra_eugenia_1",
         texto: {
-            titulo: "anti taxonomía o como me salí de control",
+            titulo: "anti taxonomía o como me salí de control.",
             material: "",
             tecnica: "fotografía digital",
             anyo: "2019",
@@ -123,7 +123,7 @@ const Catalogo = [
     {
         id: "obra_eugenia_2",
         texto: {
-            titulo: "anti taxonomía o como me salí de control",
+            titulo: "anti taxonomía o como me salí de control.",
             material: "",
             tecnica: "fotografía digital",
             anyo: "2019",
@@ -136,7 +136,7 @@ const Catalogo = [
     {
         id: "obra_eugenia_3",
         texto: {
-            titulo: "anti taxonomía o como me salí de control",
+            titulo: "anti taxonomía o como me salí de control.",
             material: "",
             tecnica: "fotografía digital",
             anyo: "2019",
