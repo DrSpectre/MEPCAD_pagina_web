@@ -19,7 +19,7 @@ function clickeado(...argumentos){
         document.body.style.overflow="hidden"
 
         let entrada_encontrada = Catalogo.find((entrada) => entrada.id == argumentos[1]) ?? 
-            {texto: "Parece que no tenemos ese dato", img: "https://i.redd.it/floofy-sleep-time-hololive-v0-3oxipphrpjtb1.jpg?s=a8c4a0940c5ce6c2210bcc08baacca61b253fd06"}
+            {texto: "Parece que no tenemos ese dato", img: "img/chica_poster.png"}
 
         texto_lateral.querySelector("#titulo_place").innerText = entrada_encontrada.texto.titulo ?? "Erro 404"
         texto_lateral.querySelector("#anyo_place").innerText = entrada_encontrada.texto.anyo ?? ""
